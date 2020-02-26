@@ -34,6 +34,7 @@
                 app:layout_constraintHorizontal_bias="0.545"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                android:onClick="changeProfile"
                 />
 
             <ImageView
@@ -188,6 +189,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="handleSubmit"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
